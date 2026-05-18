@@ -1,0 +1,6 @@
+this is this
+
+1.client
+2.chrome
+3.server
+This all three are the process of how a website works.
