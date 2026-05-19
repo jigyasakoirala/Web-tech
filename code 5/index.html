@@ -1,0 +1,95 @@
+<!-- HTML tables -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Images</title>   
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <img width="230" height="230
+    " src="doremon.jpg" alt="Doremon image">
+  <!-- "alt"== kunai image/url ma rakheko name wrong bhayo bhani alt ma lekheko kura show hunxa -->
+  <!-- ra img ma width or height ma euta matrai lekhem bhani pani automatic set bhaera show garxa-->
+  <br> <!-- <br> means next line or line break -->
+
+  <table>
+    <caption>Cartoon Details</caption>
+
+    <thead>       <!-- Table Header  -->
+      <tr>
+        <th>Name</th>
+        <th>Fav language</th>
+        <th>Best Friend</th>
+      </tr>
+    </thead>
+
+
+    <tbody>      <!--  Table Body  -->
+      <tr>
+        <td>Doremon</td>
+        <td>Japanese</td>
+        <td>Nobita</td>
+      </tr>
+      <tr>
+        <td>Nobita</td>
+        <td>Japanese</td>
+        <td>Doremon</td>
+      </tr>
+
+      <tr>
+        <td colspan="2">Sizuka</td>    <!-- column merge -->
+        <td rowspan="2">Jiyan</td>     <!-- row merge -->
+      </tr>
+      <tr>
+        <td colspan="2">Sizuka</td>
+      </tr>
+    </tbody>
+
+
+    <tfoot>       <!-- Table Footer-->
+       <tr>
+        <td colspan="2">Sizuka</td>
+        <td rowspan="2">Foot</td>
+      </tr>
+    </tfoot>
+
+  </table>
+
+
+<!-- HTML List  -->
+<!-- Types of lists==> 1.Ordered List, 2.Unordered List -->
+
+  <!-- Undordered List -->
+<ul>
+  <li>Taki</li>
+  <li>Mitsuha</li>
+  <li>Sofiya</li>
+</ul>
+
+<ul type="square">  <!--  bullet points lai square shape ma change gareko {type="square"} garera-->
+  <li>Taki</li>
+  <li>Mitsuha</li>
+  <li>Sofiya</li>
+</ul>
+
+
+  <!-- Ordered List  -->
+<ol>
+  <li>Taki</li>
+  <li>Mitsuha</li>
+  <li>Sofiya</li>
+</ol>
+
+<ol type="A">   <!-- Bullet points lai (capital) alphabetric ma lekheko -->
+  <li>Taki</li>
+  <li>Mitsuha</li>
+  <li>Sofiya</li>
+</ol>
+
+</body>
+</html>
