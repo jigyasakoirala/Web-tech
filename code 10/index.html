@@ -1,0 +1,55 @@
+<!-- Video, Audio & Media(SVG,iFrames) -->
+
+<!-- Video -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Video</title>
+</head>
+
+<body>
+    <!-- Video -->
+
+    <!--<video src="video.mp4" height="255" controls autoplay></video> -->
+    <!-- autoplay le website khulni bittikai aafhai video chalxa -->
+    <!--<video src="video.mp4" height="255" controls loop></video> --> <!-- loop le video loop ma janxa -->
+    <!--<video src="video.mp4" height="255" controls loop muted></video> -->
+    <!-- muted le video auto mute ma janxa , background noice mute hunxa -->
+    <video src="video.mp4" height="255" controls loop muted poster="thumnail.png"></video>
+    <!-- Same like thumnail :) -->
+
+
+    <!-- Audio -->
+    <!-- Atributes =>> src(Specifies the path to the audio file),controls(adds audio controls, like play, pause and volume),autoplay,loop,muted,preload -->
+
+    <audio src="sound3.mp3" controls autoplay loop></audio>
+
+
+
+    <!-- SVG means image lai create garna sakxam, high graphics vector image ma -->
+    <svg height="100" width="100">
+        <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="purple" />
+    </svg>
+
+    <img src="img.svg" alt="My Svg Image"> <!-- esari pani svg lai save garna sakinxa. img.svg ko content lekhera-->
+
+
+
+    <!--- iframe -->
+    <!--<iframe src="https://www.codewithharry.com/tutorial/html-iframes/" width="323" height="544"></iframe> -->
+    <!--website embedded bhayo -->
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ueurcbZZ9rs?si=VG_E8PAVT_RtT17B&amp;start=1"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <!-- YouTube video embedded using iframe -->
+
+    <!-- video, audio, SVG inline element bhako le eutai line ma dekhiraxa-->
+
+</body>
+
+</html>
