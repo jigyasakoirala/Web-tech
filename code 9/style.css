@@ -1,0 +1,16 @@
+/* . means class
+    # means id ,  css ma selector hunxa */
+
+
+/* classes lai css ma (.) dot lagaera target garinxa */
+/* .red means red class 
+.bg-yellow means class bg-yellow */
+
+.red{       
+    color:red;
+}
+
+.bg-yellow{
+    background-color:yellow;
+}
+
